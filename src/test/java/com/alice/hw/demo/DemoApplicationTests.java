@@ -26,6 +26,6 @@ public class DemoApplicationTests {
 			  print()).andExpect(
 			  status().isOk()).andExpect(
 			  content().string(containsString(
-					  "Nihao World!")));
+					  "Buona Sera, World!")));
 	}	
 }

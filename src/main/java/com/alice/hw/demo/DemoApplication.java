@@ -28,6 +28,6 @@ public class DemoApplication extends SpringBootServletInitializer {
   public String hello(
     @RequestParam(value = "name", defaultValue = "World") String name
   ) {
-    return String.format("Nihao %s!", name);
+    return String.format("Buona Sera, %s!", name);
   }
 }
